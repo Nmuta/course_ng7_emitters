@@ -12,13 +12,13 @@
        <div class="all_container">
         <div class="even_container">
            <div *ngFor="let even of evens">
-               <app-even></app-even>
+               <app-even [vall]="even"></app-even>
            </div>
         </div>
  
         <div class="odd_container">
           <div *ngFor="let odd of odds">
-            <app-odd></app-odd>
+            <app-odd [vall]="odd"></app-odd>
           </div>
         </div>
       </div>
