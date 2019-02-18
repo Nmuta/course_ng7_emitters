@@ -2,4 +2,4 @@
 
 also known as cmp-databinding-assignment
 
-[]('./databinding.gif')
+![]('./databinding.gif')
